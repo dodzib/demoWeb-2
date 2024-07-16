@@ -42,7 +42,20 @@
     {
         "name":"Ts'pop",
         "url":"/index.html",
-        "description":"Ce raccourci est pour les personnes qui l'utilisent en cas de besoin"
+        "description":"Ce raccourci est pour les personnes qui l'utilisent en cas de besoin",
+
+        "icons": [
+          {
+            "src": "/demoWeb-2/images/raccourci.png",
+            "sizes": "96x96",
+            "type": "image/png"
+          }
+        ]
+
+
     }
+  
+
 ]
 }
+
