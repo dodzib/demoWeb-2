@@ -14,13 +14,13 @@
         "src": "/demoWeb-2/images/icon-1.png",
         "sizes": "512x512",
         "type": "image/png",
-        "purpose": "maskable"
+        "purpose": "any maskable"
     },
     {
         "src": "/demoWeb-2/images/icon-2.png",
         "sizes": "192x192",
         "type": "image/png",
-        "purpose": "maskable"
+        "purpose": "any maskable"
     }
 ],
 "screenshots": [
@@ -34,15 +34,15 @@
 "related_applications": [
     {
         "platform":"windows",
-        "url": ""
+        "url": "https://dodzib.github.io/demoWeb-2/"
     }
 ],
 "prefer_related_applications": false,
 "shortcuts": [
     {
-        "name":"The name you would like to be displayed for your shortcut",
-        "url":"The url you would like to open when the user chooses this shortcut. This must be a URL local to your PWA. For example: If my start_url is /, this URL must be something like /shortcut",
-        "description":"A description of the functionality of this shortcut"
+        "name":"Ts'pop",
+        "url":"/index.html",
+        "description":"Ce raccourci est pour les personnes qui l'utilisent en cas de besoin"
     }
 ]
 }
