@@ -24,18 +24,20 @@
     }
 ],
 "screenshots": [
-    {
-        "src": "/demoWeb-2/images/captures.jpg",
-        "sizes": "2880x1800",
-        "type": "image/png",
-        "description": "A screenshot of the home page"
-    },
+
     {
         "src": "/demoWeb-2/images/imagelarge.png",
         "sizes": "1280x720",
         "type": "image/png",
         "form_factor": "wide"
-      }
+      },
+
+      {
+        "src": "/demoWeb-2/images/captures.jpg",
+        "sizes": "2880x1800",
+        "type": "image/png",
+        "description": "A screenshot of the home page"
+    },  
 
 ],
 
