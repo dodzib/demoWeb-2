@@ -15,6 +15,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <link rel="manifest" href="manifest.json">
+
+    <script>
+
+        // Register service worker.
+        if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+                navigator.serviceWorker.register('service-worker.js')
+                .then((reg) => {
+                console.log('Service worker registered.', reg);
+                });
+                });
+        }
+
+   </script>
     
 </head>
 
@@ -37,7 +51,8 @@
                  </div>               
         </header>
 
-        
+        <button class="nav-link px-lg-4 px-2" id="butInstall"
+                aria-label="Install" hidden>Installer la PWA</button>
 
     <main>
 
@@ -103,7 +118,7 @@
                         </div> 
                 </footer>
                 
-
+                <script src="js/install.js"></script>
 </body>
 
 
